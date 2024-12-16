@@ -39,7 +39,7 @@ Emotion detection is crucial for numerous applications such as human-computer in
 - **`Model_Comparison.ipynb`**: Compares the performance of the LNN model against other baseline models.
 - **`Model_Testing_realtime.ipynb`**: Enables real-time testing of the trained model using your local microphone.
 - **`Model_Testing_Audio.ipynb`**: Tests the model using pre-recorded audio files.
-- **`models/`**: Stores all the pre-trained models. Model filenames include accuracy in the format `xyz`, where `xyz` represents `x.yz%` accuracy (e.g., `625` for 62.5% accuracy).
+- **`models/`**: Stores all the pre-trained models. Model filenames include accuracy in the format `xyz`, where `xyz` represents `xy.z%` accuracy (e.g., `625` for 62.5% accuracy).
 - **`notebooks/`**: Contains pre-run Jupyter notebooks with outputs to showcase the proof of work.
 
 ## Requirements
@@ -67,27 +67,17 @@ pip install -r requirements.txt
 
 ### Preprocessing
 
-Run the `Model_Preprocessing.py` script to extract and prepare features from the IEMOCAP dataset.
-
-```bash
-python Model_Preprocessing.py
-```
+Run the `Model_Preprocessing.ipynb` script to extract and prepare features from the IEMOCAP dataset.
 
 ### Training
 
-Train the LNN model by running the `Model_Training.py` script. This will generate a trained model in the `models/` directory.
+Train the LNN model by running the `Model_Training.ipynb` script.
 
-```bash
-python Model_Training.py
-```
 
 ### Model Comparison
 
-Use `Model_Comparison.py` to compare the trained LNN model against baseline models.
+Use `Model_Comparison.ipynb` to compare the trained LNN model against baseline models.
 
-```bash
-python Model_Comparison.py
-```
 
 ### Testing
 
@@ -96,7 +86,7 @@ python Model_Comparison.py
 To test the model in real-time using your microphone, run:
 
 ```bash
-python Model_Testing_realtime.py
+run Model_Testing_realtime.ipynb
 ```
 
 #### Audio File Testing
@@ -104,7 +94,7 @@ python Model_Testing_realtime.py
 To test the model using pre-recorded audio files, run:
 
 ```bash
-python Model_Testing_Audio.py
+run Model_Testing_Audio.ipynb
 ```
 
 ## Pre-trained Models
