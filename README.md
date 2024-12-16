@@ -34,11 +34,11 @@ Emotion detection is crucial for numerous applications such as human-computer in
 
 ## Repository Structure
 
-- **`Model_Preprocessing.py`**: Preprocesses the IEMOCAP dataset to extract relevant features for training and testing.
-- **`Model_Training.py`**: Contains the code to train the LNN model on the preprocessed data.
-- **`Model_Comparison.py`**: Compares the performance of the LNN model against other baseline models.
-- **`Model_Testing_realtime.py`**: Enables real-time testing of the trained model using your local microphone.
-- **`Model_Testing_Audio.py`**: Tests the model using pre-recorded audio files.
+- **`Model_Preprocessing.ipynb`**: Preprocesses the IEMOCAP dataset to extract relevant features for training and testing.
+- **`Model_Training.ipynb`**: Contains the code to train the LNN model on the preprocessed data.
+- **`Model_Comparison.ipynb`**: Compares the performance of the LNN model against other baseline models.
+- **`Model_Testing_realtime.ipynb`**: Enables real-time testing of the trained model using your local microphone.
+- **`Model_Testing_Audio.ipynb`**: Tests the model using pre-recorded audio files.
 - **`models/`**: Stores all the pre-trained models. Model filenames include accuracy in the format `xyz`, where `xyz` represents `x.yz%` accuracy (e.g., `625` for 62.5% accuracy).
 - **`notebooks/`**: Contains pre-run Jupyter notebooks with outputs to showcase the proof of work.
 
@@ -114,6 +114,10 @@ Pre-trained models are available in the `models/` folder. Each model is named ba
 ## Proof of Work
 
 The `notebooks/` folder contains pre-run Jupyter notebooks with outputs to validate the methodology and results of the project.
+
+## Contributions
+
+Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository, make changes, and submit a pull request.
 
 ## License
 
